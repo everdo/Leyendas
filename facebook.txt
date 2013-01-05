@@ -1,0 +1,15 @@
+<html>   
+ <head>    
+  <title>Postear en facebook desde Reformas Arias</title> 
+   </head>    
+<body>    
+  <div id="fb-root"></div>   
+   <script src="http://connect.facebook.net/en_US/all.js"> 
+     </script>  
+    <script>   
+      FB.init({             appId:'xxxxxxxx', cookie:true,             status:true, xfbml:true          });    
+     FB.ui({ method: 'feed',             message: 'Mensaje'});  
+    </script>
+<h1>Permite ventanas emergentes para esta web y actualiza la página.</h1>   
+  </body> 
+</html> 
